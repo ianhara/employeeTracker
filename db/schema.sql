@@ -13,7 +13,7 @@ CREATE TABLE role(
     id INT,
     title VARCHAR(30),
     salary DECIMAL,
-    department_id INT
+    department_id INT 
 );
 
 CREATE TABLE employee(
