@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "mysql -u root -p employee_db < db/seed.sql",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/db.js"
   },
   "keywords": [],
   "author": "",
